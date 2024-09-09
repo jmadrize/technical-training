@@ -4,6 +4,9 @@
     'category': 'Sales/CRM',
     'summary': 'Modulo de prueba',
     'description': "",
+    'author': 'jmadrize/AKD',
     'website': 'https://www.akdigitales.com',
-
+    'installable': True,
+    'application': True,
+    'auto_install': False
 }
