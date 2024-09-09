@@ -10,4 +10,28 @@
         <menuitem id="estate_property_menu_action" action="estate_property_action"/>
     </menuitem>
     </menuitem>
+
+    <form string="Test">
+        <sheet>
+            <group>
+            <group>
+                <field name="name"/>
+            </group>
+            <group>
+                <field name="last_seen"/>
+            </group>
+            </group>
+            <notebook>
+            <page string="Description">
+                <field name="description"/>
+            </page>
+            </notebook>
+        </sheet>
+    </form>
+    
+    <search string="Tests">
+        <field name="name"/>
+        <field name="last_seen"/>
+    </search>
+
 </odoo>
