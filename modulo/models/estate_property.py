@@ -4,11 +4,11 @@ class TestModel(models.Model):
     _name = "estate_property"
     _description = "Test Model"
 
-    name = fields.Char()
+    name = fields.Char(required=True)
     description = fields.Text()
     postcode = fields.Char('postcode')
     date_availability = fields.Datetime('date_availability')
-    expected_price = fields.Float('expected_price')
+    expected_price = fields.Float('expected_price', required=True)
     selling_price= fields.Float('selling_price')
     bedrooms = fields.Integer('bedrooms')
     living_area = fields.Integer('living_area')
