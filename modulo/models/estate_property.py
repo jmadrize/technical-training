@@ -16,4 +16,4 @@ class TestModel(models.Model):
     garage = fields.Boolean('garage')
     garden = fields.Boolean('garden')
     garden_area = fields.Integer('garden_area')
-    garden_orientation = lead_type = fields.Selection(('North','North'),('South','South'),('East','East'),('West','West'))
+    garden_orientation = lead_type = fields.Selection([('North','North'),('South','South'),('East','East'),('West','West')])
